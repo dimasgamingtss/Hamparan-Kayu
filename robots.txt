@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow admin area
+Disallow: /admin/
+Disallow: /config/
+Disallow: /uploads/
+
+# Allow CSS, JS, and images
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap
+Sitemap: https://hamparankayu.com/sitemap.xml
